@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Tests\\BillingSoftware.Tests.csproj": {}
+    "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Tests\\BillingSoftware.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj": {
+    "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj",
+        "projectUniqueName": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj",
         "projectName": "BillingSoftware.Application",
-        "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj",
+        "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj",
         "packagesPath": "C:\\Users\\katana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Application\\obj\\",
+        "outputPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\katana\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -27,11 +27,11 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
               },
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
               }
             }
           }
@@ -82,14 +82,85 @@
         }
       }
     },
-    "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
+    "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Backup\\BillingSoftware.Backup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj",
-        "projectName": "BillingSoftware.Common",
-        "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj",
+        "projectUniqueName": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Backup\\BillingSoftware.Backup.csproj",
+        "projectName": "BillingSoftware.Backup",
+        "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Backup\\BillingSoftware.Backup.csproj",
         "packagesPath": "C:\\Users\\katana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\obj\\",
+        "outputPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Backup\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\katana\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "framework": "net8.0",
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj"
+              },
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
+              },
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "framework": "net8.0",
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj",
+        "projectName": "BillingSoftware.Common",
+        "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj",
+        "packagesPath": "C:\\Users\\katana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\katana\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -143,14 +214,14 @@
         }
       }
     },
-    "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
+    "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj",
+        "projectUniqueName": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj",
         "projectName": "BillingSoftware.Core",
-        "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj",
+        "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj",
         "packagesPath": "C:\\Users\\katana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\obj\\",
+        "outputPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\katana\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -166,8 +237,8 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
               }
             }
           }
@@ -208,14 +279,14 @@
         }
       }
     },
-    "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj": {
+    "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj",
+        "projectUniqueName": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj",
         "projectName": "BillingSoftware.Database",
-        "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj",
+        "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj",
         "packagesPath": "C:\\Users\\katana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Database\\obj\\",
+        "outputPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\katana\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -231,11 +302,11 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
               },
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
               }
             }
           }
@@ -288,14 +359,14 @@
         }
       }
     },
-    "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj": {
+    "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj",
         "projectName": "BillingSoftware.Infrastructure",
-        "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\katana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\katana\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -311,17 +382,17 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj"
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj"
               },
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
               },
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
               },
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj"
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj"
               }
             }
           }
@@ -380,14 +451,14 @@
         }
       }
     },
-    "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj": {
+    "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj",
+        "projectUniqueName": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj",
         "projectName": "BillingSoftware.Printing",
-        "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj",
+        "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj",
         "packagesPath": "C:\\Users\\katana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Printing\\obj\\",
+        "outputPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Printing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\katana\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -403,14 +474,14 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj"
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj"
               },
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
               },
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
               }
             }
           }
@@ -457,14 +528,14 @@
         }
       }
     },
-    "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Tests\\BillingSoftware.Tests.csproj": {
+    "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Reporting\\BillingSoftware.Reporting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Tests\\BillingSoftware.Tests.csproj",
-        "projectName": "BillingSoftware.Tests",
-        "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Tests\\BillingSoftware.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Reporting\\BillingSoftware.Reporting.csproj",
+        "projectName": "BillingSoftware.Reporting",
+        "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Reporting\\BillingSoftware.Reporting.csproj",
         "packagesPath": "C:\\Users\\katana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Tests\\obj\\",
+        "outputPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Reporting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\katana\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -480,23 +551,14 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj"
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj"
               },
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
               },
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
-              },
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj"
-              },
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj"
-              },
-              "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj": {
-                "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj"
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
               }
             }
           }
@@ -517,6 +579,95 @@
         "net8.0": {
           "framework": "net8.0",
           "targetAlias": "net8.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Tests\\BillingSoftware.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Tests\\BillingSoftware.Tests.csproj",
+        "projectName": "BillingSoftware.Tests",
+        "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Tests\\BillingSoftware.Tests.csproj",
+        "packagesPath": "C:\\Users\\katana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\katana\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows": {
+            "framework": "net8.0-windows7.0",
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj"
+              },
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
+              },
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
+              },
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj"
+              },
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj"
+              },
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj"
+              },
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.UI\\BillingSoftware.UI.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.UI\\BillingSoftware.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows": {
+          "framework": "net8.0-windows7.0",
+          "targetAlias": "net8.0-windows",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -549,9 +700,142 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.UI\\BillingSoftware.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.UI\\BillingSoftware.UI.csproj",
+        "projectName": "BillingSoftware.UI",
+        "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.UI\\BillingSoftware.UI.csproj",
+        "packagesPath": "C:\\Users\\katana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\katana\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows": {
+            "framework": "net8.0-windows7.0",
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj"
+              },
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Backup\\BillingSoftware.Backup.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Backup\\BillingSoftware.Backup.csproj"
+              },
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
+              },
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
+              },
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj"
+              },
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj"
+              },
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj"
+              },
+              "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Reporting\\BillingSoftware.Reporting.csproj": {
+                "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Reporting\\BillingSoftware.Reporting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows": {
+          "framework": "net8.0-windows7.0",
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.28, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }

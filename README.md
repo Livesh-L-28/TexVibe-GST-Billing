@@ -15,7 +15,9 @@ A modern, high-performance, and fully offline **GST Billing & ERP Software** des
 
 | Package | Format | Architecture | Download Link |
 | :--- | :--- | :--- | :--- |
-| **Offline Setup Installer** | Executable (`.exe`) | Windows x64 | [**Download Setup Installer (v1.0.0)**](InstallerOutput/TexVibe_GST_Billing_Setup.exe) |
+| **Offline Setup Installer (v1.0.0)** | Executable (`.exe`) | Windows x64 | [**📥 Download TexVibe_GST_Billing_Setup.exe (Direct Link)**](https://github.com/Livesh-L-28/TexVibe-GST-Billing/releases/download/v1.0.0/TexVibe_GST_Billing_Setup.exe) |
+
+You can also view the official release page on GitHub: [**Release v1.0.0**](https://github.com/Livesh-L-28/TexVibe-GST-Billing/releases/tag/v1.0.0).
 
 > **Note**: The setup installer is fully self-contained (~59 MB) and installs the required application assets, database initializers, and desktop shortcuts with zero internet connectivity required.
 
@@ -154,3 +156,4 @@ TexVibe-GST-Billing/
 ## 🛡️ License
 
 This project is licensed under the **MIT License** — feel free to use, modify, and distribute for commercial or personal applications.
+

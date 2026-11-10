@@ -1,7 +1,7 @@
 {
   "version": 4,
   "targets": {
-    "net8.0": {
+    "net8.0-windows": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -1293,10 +1293,10 @@
           "SQLitePCLRaw.core": "2.1.6"
         },
         "compile": {
-          "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+          "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         },
         "runtime": {
-          "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+          "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -2611,6 +2611,21 @@
           "bin/placeholder/BillingSoftware.Application.dll": {}
         }
       },
+      "BillingSoftware.Backup/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BillingSoftware.Application": "1.0.0",
+          "BillingSoftware.Common": "1.0.0",
+          "BillingSoftware.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BillingSoftware.Backup.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BillingSoftware.Backup.dll": {}
+        }
+      },
       "BillingSoftware.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2684,6 +2699,47 @@
         "runtime": {
           "bin/placeholder/BillingSoftware.Printing.dll": {}
         }
+      },
+      "BillingSoftware.Reporting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BillingSoftware.Application": "1.0.0",
+          "BillingSoftware.Common": "1.0.0",
+          "BillingSoftware.Core": "1.0.0",
+          "EPPlus": "7.1.1"
+        },
+        "compile": {
+          "bin/placeholder/BillingSoftware.Reporting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BillingSoftware.Reporting.dll": {}
+        }
+      },
+      "BillingSoftware.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BillingSoftware.Application": "1.0.0",
+          "BillingSoftware.Backup": "1.0.0",
+          "BillingSoftware.Common": "1.0.0",
+          "BillingSoftware.Core": "1.0.0",
+          "BillingSoftware.Database": "1.0.0",
+          "BillingSoftware.Infrastructure": "1.0.0",
+          "BillingSoftware.Printing": "1.0.0",
+          "BillingSoftware.Reporting": "1.0.0",
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BillingSoftware.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BillingSoftware.UI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -7878,6 +7934,11 @@
       "path": "../BillingSoftware.Application/BillingSoftware.Application.csproj",
       "msbuildProject": "../BillingSoftware.Application/BillingSoftware.Application.csproj"
     },
+    "BillingSoftware.Backup/1.0.0": {
+      "type": "project",
+      "path": "../BillingSoftware.Backup/BillingSoftware.Backup.csproj",
+      "msbuildProject": "../BillingSoftware.Backup/BillingSoftware.Backup.csproj"
+    },
     "BillingSoftware.Common/1.0.0": {
       "type": "project",
       "path": "../BillingSoftware.Common/BillingSoftware.Common.csproj",
@@ -7902,16 +7963,27 @@
       "type": "project",
       "path": "../BillingSoftware.Printing/BillingSoftware.Printing.csproj",
       "msbuildProject": "../BillingSoftware.Printing/BillingSoftware.Printing.csproj"
+    },
+    "BillingSoftware.Reporting/1.0.0": {
+      "type": "project",
+      "path": "../BillingSoftware.Reporting/BillingSoftware.Reporting.csproj",
+      "msbuildProject": "../BillingSoftware.Reporting/BillingSoftware.Reporting.csproj"
+    },
+    "BillingSoftware.UI/1.0.0": {
+      "type": "project",
+      "path": "../BillingSoftware.UI/BillingSoftware.UI.csproj",
+      "msbuildProject": "../BillingSoftware.UI/BillingSoftware.UI.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net8.0-windows": [
       "BillingSoftware.Application >= 1.0.0",
       "BillingSoftware.Common >= 1.0.0",
       "BillingSoftware.Core >= 1.0.0",
       "BillingSoftware.Database >= 1.0.0",
       "BillingSoftware.Infrastructure >= 1.0.0",
       "BillingSoftware.Printing >= 1.0.0",
+      "BillingSoftware.UI >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.3",
@@ -7924,43 +7996,46 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Tests\\BillingSoftware.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Tests\\BillingSoftware.Tests.csproj",
       "projectName": "BillingSoftware.Tests",
-      "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Tests\\BillingSoftware.Tests.csproj",
+      "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Tests\\BillingSoftware.Tests.csproj",
       "packagesPath": "C:\\Users\\katana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Tests\\obj\\",
+      "outputPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\katana\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net8.0-windows"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "framework": "net8.0",
-          "targetAlias": "net8.0",
+        "net8.0-windows": {
+          "framework": "net8.0-windows7.0",
+          "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj": {
-              "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj"
+            "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj": {
+              "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj"
             },
-            "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
-              "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
+            "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
+              "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
             },
-            "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
-              "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
+            "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
+              "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
             },
-            "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj": {
-              "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj"
+            "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj": {
+              "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj"
             },
-            "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj"
+            "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj"
             },
-            "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj": {
-              "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj"
+            "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj": {
+              "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj"
+            },
+            "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.UI\\BillingSoftware.UI.csproj": {
+              "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.UI\\BillingSoftware.UI.csproj"
             }
           }
         }
@@ -7978,9 +8053,9 @@
       "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
-      "net8.0": {
-        "framework": "net8.0",
-        "targetAlias": "net8.0",
+      "net8.0-windows": {
+        "framework": "net8.0-windows7.0",
+        "targetAlias": "net8.0-windows",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -8013,6 +8088,9 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"

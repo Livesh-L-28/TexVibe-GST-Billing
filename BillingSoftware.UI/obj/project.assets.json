@@ -5205,11 +5205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.UI\\BillingSoftware.UI.csproj",
+      "projectUniqueName": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.UI\\BillingSoftware.UI.csproj",
       "projectName": "BillingSoftware.UI",
-      "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.UI\\BillingSoftware.UI.csproj",
+      "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.UI\\BillingSoftware.UI.csproj",
       "packagesPath": "C:\\Users\\katana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.UI\\obj\\",
+      "outputPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\katana\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5225,29 +5225,29 @@
           "framework": "net8.0-windows7.0",
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj": {
-              "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj"
+            "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj": {
+              "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Application\\BillingSoftware.Application.csproj"
             },
-            "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Backup\\BillingSoftware.Backup.csproj": {
-              "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Backup\\BillingSoftware.Backup.csproj"
+            "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Backup\\BillingSoftware.Backup.csproj": {
+              "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Backup\\BillingSoftware.Backup.csproj"
             },
-            "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
-              "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
+            "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj": {
+              "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Common\\BillingSoftware.Common.csproj"
             },
-            "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
-              "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
+            "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj": {
+              "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Core\\BillingSoftware.Core.csproj"
             },
-            "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj": {
-              "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj"
+            "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj": {
+              "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Database\\BillingSoftware.Database.csproj"
             },
-            "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj"
+            "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Infrastructure\\BillingSoftware.Infrastructure.csproj"
             },
-            "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj": {
-              "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj"
+            "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj": {
+              "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Printing\\BillingSoftware.Printing.csproj"
             },
-            "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Reporting\\BillingSoftware.Reporting.csproj": {
-              "projectPath": "C:\\Users\\katana\\Downloads\\BILLING\\BillingSoftware.Reporting\\BillingSoftware.Reporting.csproj"
+            "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Reporting\\BillingSoftware.Reporting.csproj": {
+              "projectPath": "C:\\Users\\katana\\Videos\\BILLING\\BillingSoftware.Reporting\\BillingSoftware.Reporting.csproj"
             }
           }
         }
